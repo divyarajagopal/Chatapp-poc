@@ -1,0 +1,72 @@
+{
+	"query": [
+		{
+			"question": "office 365",
+			"answer": [
+				{
+					"text": "outlook 365 sign in",
+					"webSearchUrl": "https://www.bing.com/search?q=outlook+365+sign+in"
+				},
+				{
+					"text": "office 365 sign in",
+					"webSearchUrl": "https://www.bing.com/search?q=office+365+sign+in"
+				},
+				{
+					"text": "office 365 portal",
+					"webSearchUrl": "https://www.bing.com/search?q=office+365+portal"
+				},
+				{
+					"text": "365 account sign in",
+					"webSearchUrl": "https://www.bing.com/search?q=365+account+sign+in"
+				},
+				{
+					"text": "outlook 365",
+					"webSearchUrl": "https://www.bing.com/search?q=outlook+365"
+				},
+				{
+					"text": "o365 sign in",
+					"webSearchUrl": "https://www.bing.com/search?q=o365+sign+in"
+				},
+				{
+					"text": "portal office sign",
+					"webSearchUrl": "https://www.bing.com/search?q=portal+office+sign"
+				}
+			]
+		},
+		{
+			"question": "powerpoint",
+			"answer": [
+				{
+					"text": "Microsoft Powerpoint online",
+					"webSearchUrl": "https://www.bing.com/search?q=powerpoint"
+				},
+				{
+					"text": "Slide Presentation Software",
+					"webSearchUrl": "https://www.bing.com/search?q=powerpoint"
+				}
+			]
+		},
+		{
+			"question": "Excel",
+			"answer": [
+				{
+					"text": "Microsoft Excel Online",
+					"webSearchUrl": "https://www.bing.com/search?q=excel"
+				},
+				{
+					"text": "Spreadsheet Software",
+					"webSearchUrl": "https://www.bing.com/search?q=excel"
+				}
+			]
+		},
+		{
+			"question": "Outlook",
+			"answer": [
+				{
+					"text": "Microsoft Outlook",
+					"webSearchUrl": "https://www.bing.com/search?q=outlook"
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,455 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`UserRegistrationUI Component integration with child component tests should render the component as expected with store context 1`] = `
+<Provider
+  store={
+    Object {
+      "clearActions": [Function],
+      "dispatch": [Function],
+      "getActions": [Function],
+      "getState": [Function],
+      "replaceReducer": [Function],
+      "subscribe": [Function],
+    }
+  }
+>
+  <UserRegistrationUI>
+    <Component
+      style={
+        Object {
+          "flex": 1,
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "flex": 1,
+          }
+        }
+      >
+        <Connect(UserRegistration)
+          render={[Function]}
+        >
+          <UserRegistration
+            data={Array []}
+            isLoaded={false}
+            onConnecting={[Function]}
+            onLoaded={[Function]}
+            onLoading={[Function]}
+            render={[Function]}
+          >
+            <Component
+              style={
+                Object {
+                  "alignItems": "center",
+                  "flex": 1,
+                  "justifyContent": "center",
+                }
+              }
+            >
+              <View
+                style={
+                  Object {
+                    "alignItems": "center",
+                    "flex": 1,
+                    "justifyContent": "center",
+                  }
+                }
+              >
+                <Component
+                  style={
+                    Object {
+                      "bottom": 0,
+                      "justifyContent": "center",
+                      "left": 0,
+                      "position": "absolute",
+                      "right": 0,
+                      "top": 0,
+                    }
+                  }
+                >
+                  <View
+                    style={
+                      Object {
+                        "bottom": 0,
+                        "justifyContent": "center",
+                        "left": 0,
+                        "position": "absolute",
+                        "right": 0,
+                        "top": 0,
+                      }
+                    }
+                  >
+                    <Component
+                      animating={true}
+                      color="#999999"
+                      hidesWhenStopped={true}
+                      size="large"
+                    >
+                      <ActivityIndicator
+                        animating={true}
+                        color="#999999"
+                        hidesWhenStopped={true}
+                        size="large"
+                      />
+                    </Component>
+                  </View>
+                </Component>
+                <Component
+                  style={
+                    Object {
+                      "width": "80%",
+                    }
+                  }
+                >
+                  <View
+                    style={
+                      Object {
+                        "width": "80%",
+                      }
+                    }
+                  >
+                    <TextInputUI
+                      error=""
+                      onChangeText={[Function]}
+                      placeholder="Username"
+                      value=""
+                    >
+                      <TextInput
+                        allowFontScaling={true}
+                        error=""
+                        onChangeText={[Function]}
+                        placeholder="Username"
+                        placeholderTextColor="grey"
+                        style={
+                          Array [
+                            Object {
+                              "borderColor": "grey",
+                              "borderRadius": 5,
+                              "borderWidth": 3,
+                              "margin": 10,
+                              "padding": 10,
+                              "width": "100%",
+                            },
+                            null,
+                          ]
+                        }
+                        underlineColorAndroid="transparent"
+                        value=""
+                      >
+                        <TextInput
+                          allowFontScaling={true}
+                          error=""
+                          onChangeText={[Function]}
+                          placeholder="Username"
+                          placeholderTextColor="grey"
+                          style={
+                            Array [
+                              Object {
+                                "borderColor": "grey",
+                                "borderRadius": 5,
+                                "borderWidth": 3,
+                                "margin": 10,
+                                "padding": 10,
+                                "width": "100%",
+                              },
+                              null,
+                            ]
+                          }
+                          underlineColorAndroid="transparent"
+                          value=""
+                        />
+                      </TextInput>
+                    </TextInputUI>
+                    <TextInputUI
+                      error=""
+                      onChangeText={[Function]}
+                      placeholder="Email"
+                      value=""
+                    >
+                      <TextInput
+                        allowFontScaling={true}
+                        error=""
+                        onChangeText={[Function]}
+                        placeholder="Email"
+                        placeholderTextColor="grey"
+                        style={
+                          Array [
+                            Object {
+                              "borderColor": "grey",
+                              "borderRadius": 5,
+                              "borderWidth": 3,
+                              "margin": 10,
+                              "padding": 10,
+                              "width": "100%",
+                            },
+                            null,
+                          ]
+                        }
+                        underlineColorAndroid="transparent"
+                        value=""
+                      >
+                        <TextInput
+                          allowFontScaling={true}
+                          error=""
+                          onChangeText={[Function]}
+                          placeholder="Email"
+                          placeholderTextColor="grey"
+                          style={
+                            Array [
+                              Object {
+                                "borderColor": "grey",
+                                "borderRadius": 5,
+                                "borderWidth": 3,
+                                "margin": 10,
+                                "padding": 10,
+                                "width": "100%",
+                              },
+                              null,
+                            ]
+                          }
+                          underlineColorAndroid="transparent"
+                          value=""
+                        />
+                      </TextInput>
+                    </TextInputUI>
+                    <TouchableOpacityUI>
+                      <TouchableOpacity
+                        activeOpacity={0.2}
+                        style={
+                          Array [
+                            Object {
+                              "borderColor": "grey",
+                              "borderRadius": 5,
+                              "borderWidth": 3,
+                              "margin": 10,
+                              "width": "100%",
+                            },
+                            undefined,
+                          ]
+                        }
+                      >
+                        <AnimatedComponent
+                          accessible={true}
+                          isTVSelectable={true}
+                          onResponderGrant={[Function]}
+                          onResponderMove={[Function]}
+                          onResponderRelease={[Function]}
+                          onResponderTerminate={[Function]}
+                          onResponderTerminationRequest={[Function]}
+                          onStartShouldSetResponder={[Function]}
+                          style={
+                            Array [
+                              Array [
+                                Object {
+                                  "borderColor": "grey",
+                                  "borderRadius": 5,
+                                  "borderWidth": 3,
+                                  "margin": 10,
+                                  "width": "100%",
+                                },
+                                undefined,
+                              ],
+                              Object {
+                                "opacity": 1,
+                              },
+                            ]
+                          }
+                        >
+                          <Component
+                            accessible={true}
+                            isTVSelectable={true}
+                            onResponderGrant={[Function]}
+                            onResponderMove={[Function]}
+                            onResponderRelease={[Function]}
+                            onResponderTerminate={[Function]}
+                            onResponderTerminationRequest={[Function]}
+                            onStartShouldSetResponder={[Function]}
+                            style={
+                              Object {
+                                "borderColor": "grey",
+                                "borderRadius": 5,
+                                "borderWidth": 3,
+                                "margin": 10,
+                                "opacity": 1,
+                                "width": "100%",
+                              }
+                            }
+                          >
+                            <View
+                              accessible={true}
+                              isTVSelectable={true}
+                              onResponderGrant={[Function]}
+                              onResponderMove={[Function]}
+                              onResponderRelease={[Function]}
+                              onResponderTerminate={[Function]}
+                              onResponderTerminationRequest={[Function]}
+                              onStartShouldSetResponder={[Function]}
+                              style={
+                                Object {
+                                  "borderColor": "grey",
+                                  "borderRadius": 5,
+                                  "borderWidth": 3,
+                                  "margin": 10,
+                                  "opacity": 1,
+                                  "width": "100%",
+                                }
+                              }
+                            >
+                              <Button
+                                disabled={true}
+                                onPress={[Function]}
+                                title="Start Chat"
+                              >
+                                <TouchableOpacity
+                                  accessibilityRole="button"
+                                  accessibilityStates={
+                                    Array [
+                                      "disabled",
+                                    ]
+                                  }
+                                  activeOpacity={0.2}
+                                  disabled={true}
+                                  onPress={[Function]}
+                                >
+                                  <AnimatedComponent
+                                    accessibilityRole="button"
+                                    accessibilityStates={
+                                      Array [
+                                        "disabled",
+                                      ]
+                                    }
+                                    accessible={true}
+                                    isTVSelectable={true}
+                                    onResponderGrant={[Function]}
+                                    onResponderMove={[Function]}
+                                    onResponderRelease={[Function]}
+                                    onResponderTerminate={[Function]}
+                                    onResponderTerminationRequest={[Function]}
+                                    onStartShouldSetResponder={[Function]}
+                                    style={
+                                      Array [
+                                        undefined,
+                                        Object {
+                                          "opacity": 1,
+                                        },
+                                      ]
+                                    }
+                                  >
+                                    <Component
+                                      accessibilityRole="button"
+                                      accessibilityStates={
+                                        Array [
+                                          "disabled",
+                                        ]
+                                      }
+                                      accessible={true}
+                                      isTVSelectable={true}
+                                      onResponderGrant={[Function]}
+                                      onResponderMove={[Function]}
+                                      onResponderRelease={[Function]}
+                                      onResponderTerminate={[Function]}
+                                      onResponderTerminationRequest={[Function]}
+                                      onStartShouldSetResponder={[Function]}
+                                      style={
+                                        Object {
+                                          "opacity": 1,
+                                        }
+                                      }
+                                    >
+                                      <View
+                                        accessibilityRole="button"
+                                        accessibilityStates={
+                                          Array [
+                                            "disabled",
+                                          ]
+                                        }
+                                        accessible={true}
+                                        isTVSelectable={true}
+                                        onResponderGrant={[Function]}
+                                        onResponderMove={[Function]}
+                                        onResponderRelease={[Function]}
+                                        onResponderTerminate={[Function]}
+                                        onResponderTerminationRequest={[Function]}
+                                        onStartShouldSetResponder={[Function]}
+                                        style={
+                                          Object {
+                                            "opacity": 1,
+                                          }
+                                        }
+                                      >
+                                        <Component
+                                          style={
+                                            Array [
+                                              Object {},
+                                              Object {},
+                                            ]
+                                          }
+                                        >
+                                          <View
+                                            style={
+                                              Array [
+                                                Object {},
+                                                Object {},
+                                              ]
+                                            }
+                                          >
+                                            <Component
+                                              disabled={true}
+                                              style={
+                                                Array [
+                                                  Object {
+                                                    "color": "#007AFF",
+                                                    "fontSize": 18,
+                                                    "padding": 8,
+                                                    "textAlign": "center",
+                                                  },
+                                                  Object {
+                                                    "color": "#cdcdcd",
+                                                  },
+                                                ]
+                                              }
+                                            >
+                                              <Text
+                                                disabled={true}
+                                                style={
+                                                  Array [
+                                                    Object {
+                                                      "color": "#007AFF",
+                                                      "fontSize": 18,
+                                                      "padding": 8,
+                                                      "textAlign": "center",
+                                                    },
+                                                    Object {
+                                                      "color": "#cdcdcd",
+                                                    },
+                                                  ]
+                                                }
+                                              >
+                                                Start Chat
+                                              </Text>
+                                            </Component>
+                                          </View>
+                                        </Component>
+                                      </View>
+                                    </Component>
+                                  </AnimatedComponent>
+                                </TouchableOpacity>
+                              </Button>
+                            </View>
+                          </Component>
+                        </AnimatedComponent>
+                      </TouchableOpacity>
+                    </TouchableOpacityUI>
+                  </View>
+                </Component>
+              </View>
+            </Component>
+          </UserRegistration>
+        </Connect(UserRegistration)>
+      </View>
+    </Component>
+  </UserRegistrationUI>
+</Provider>
+`;

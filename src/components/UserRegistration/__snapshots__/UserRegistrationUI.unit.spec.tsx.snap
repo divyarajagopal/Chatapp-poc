@@ -1,0 +1,60 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`UserRegistrationUI Component unit tests should render the component as expected with store context 1`] = `
+<Component
+  style={
+    Object {
+      "alignItems": "center",
+      "flex": 1,
+      "justifyContent": "center",
+    }
+  }
+>
+  <Component
+    style={
+      Object {
+        "bottom": 0,
+        "justifyContent": "center",
+        "left": 0,
+        "position": "absolute",
+        "right": 0,
+        "top": 0,
+      }
+    }
+  >
+    <Component
+      animating={true}
+      color="#999999"
+      hidesWhenStopped={true}
+      size="large"
+    />
+  </Component>
+  <Component
+    style={
+      Object {
+        "width": "80%",
+      }
+    }
+  >
+    <TextInputUI
+      error=""
+      onChangeText={[Function]}
+      placeholder="Username"
+      value=""
+    />
+    <TextInputUI
+      error=""
+      onChangeText={[Function]}
+      placeholder="Email"
+      value=""
+    />
+    <TouchableOpacityUI>
+      <Button
+        disabled={true}
+        onPress={[Function]}
+        title="Start Chat"
+      />
+    </TouchableOpacityUI>
+  </Component>
+</Component>
+`;

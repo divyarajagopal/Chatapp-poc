@@ -1,0 +1,6 @@
+[submodule "src/__common__"]
+	path = src/__common__
+	url = https://git-1k6lbsye.uk-1.paas.cloud.global.fujitsu.com/SCCMobileApp/common.git
+[submodule "__common__"]
+	path = __common__
+	url = https://git-1k6lbsye.uk-1.paas.cloud.global.fujitsu.com/SCCMobileApp/common

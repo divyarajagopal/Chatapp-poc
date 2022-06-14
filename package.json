@@ -1,0 +1,86 @@
+{
+  "main": "node_modules/expo/AppEntry.js",
+  "scripts": {
+    "start": "npm run tslint && npm run tsc-test && expo start",
+    "android": "npm run tslint && npm run tsc-test && expo start --android",
+    "ios": "npm run tslint && npm run tsc-test && expo start --ios",
+    "eject": "npm run tslint && npm run tsc-test && expo eject",
+    "watchtest": "npm run tslint && npm run tsc-test && npm run jest -- --watch",
+    "test": "npm run tslint && npm run tsc-test && npm run jest",
+    "coverage": "npm run tslint && npm run tsc-test && npm run jest --coverage",
+    "cleantest": "npm run tslint && npm run tsc-test && npm run jest -- -u",
+    "tslint": "tslint --project .",
+    "tsc-test": "tsc --project . --noEmit",
+    "jest": "node ./node_modules/jest/bin/jest.js",
+    "submodule": "git submodule update --init"
+  },
+  "dependencies": {
+    "@expo/vector-icons": "^9.0.0",
+    "expo": "^32.0.0",
+    "react": "16.5.0",
+    "react-dom": "^16.8.4",
+    "react-native": "https://github.com/expo/react-native/archive/sdk-32.0.0.tar.gz",
+    "react-native-avatar": "^1.1.2",
+    "react-native-elements": "^1.1.0",
+    "react-navigation": "^3.3.2",
+    "react-redux": "^6.0.1",
+    "redux": "^4.0.1",
+    "redux-saga": "^1.0.2",
+    "reselect": "^4.0.0"
+  },
+  "devDependencies": {
+    "@types/enzyme": "^3.9.1",
+    "@types/enzyme-adapter-react-16": "^1.0.5",
+    "@types/expo": "^32.0.5",
+    "@types/expo__vector-icons": "^9.0.1",
+    "@types/jest": "^24.0.11",
+    "@types/react": "^16.8.7",
+    "@types/react-navigation": "^3.0.5",
+    "@types/react-redux": "7.0.1",
+    "@types/react-test-renderer": "^16.8.1",
+    "@types/redux-mock-store": "^1.0.0",
+    "@types/redux-saga": "^0.10.5",
+    "babel-core": "7.0.0-bridge.0",
+    "babel-jest": "24.1.0",
+    "enzyme": "^3.9.0",
+    "enzyme-adapter-react-16": "^1.11.2",
+    "enzyme-to-json": "^3.3.5",
+    "jest": "24.0.0",
+    "jest-expo": "^32.0.0",
+    "jest-serializer-enzyme": "^1.0.0",
+    "react-test-renderer": "^16.8.4",
+    "redux-mock-store": "^1.5.3",
+    "ts-jest": "^24.0.0",
+    "tslint": "^5.13.1",
+    "tslint-config-airbnb": "^5.11.1",
+    "typescript": "^3.3.3333"
+  },
+  "private": true,
+  "jest": {
+    "testEnvironment": "jsdom",
+    "preset": "react-native",
+    "snapshotSerializers": [
+      "enzyme-to-json/serializer"
+    ],
+    "transform": {
+      "^.+\\.js$": "<rootDir>/node_modules/react-native/jest/preprocessor.js",
+      "^.+\\.tsx?$": "ts-jest"
+    },
+    "testMatch": [
+      "**/__tests__/**/*.ts?(x)",
+      "**/?(*.)+(spec|test).ts?(x)"
+    ],
+    "moduleFileExtensions": [
+      "js",
+      "ts",
+      "tsx"
+    ],
+    "globals": {
+      "ts-jest": {
+        "tsConfig": {
+          "jsx": "react"
+        }
+      }
+    }
+  }
+}

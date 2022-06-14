@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`WelcomeScreen Component should render the component as expected 1`] = `
+<Component
+  style={
+    Object {
+      "flex": 1,
+    }
+  }
+>
+  <UserRegistrationUI />
+</Component>
+`;
+
+exports[`WelcomeScreen Component should render the component as expected with store context 1`] = `
+<ContextConsumer>
+  <Component />
+</ContextConsumer>
+`;
